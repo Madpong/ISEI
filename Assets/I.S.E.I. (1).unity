@@ -415,7 +415,7 @@ Transform:
   m_Children:
   - {fileID: 251218511}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604546790
 GameObject:
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdeaa4b64c0a22945a79f90cfd7cdbd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 1140947223}
 --- !u!4 &811967171
 Transform:
   m_ObjectHideFlags: 0
@@ -1004,7 +1004,7 @@ Transform:
   m_Children:
   - {fileID: 1530014062}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1262,7 +1262,7 @@ Transform:
   m_Children:
   - {fileID: 664628236}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1140947224
 MonoBehaviour:

@@ -6,10 +6,9 @@
 {
 
     public Transform Player;
-    int MoveSpeed = 4;
+    int MoveSpeed = 2;
     int MaxDist = 10;
-    int MinDist = 5;
-
+    int MinDist = 1;
 
 
 

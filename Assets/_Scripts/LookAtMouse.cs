@@ -36,9 +36,6 @@ public class LookAtMouse : MonoBehaviour
     }
      void OnGUI()
     {
-         
-
-        
         GUILayout.BeginArea(new Rect(20, 20, 250, 120));
         //GUILayout.Label("Screen pixels: " + cam.pixelWidth + ":" + cam.pixelHeight);
         //GUILayout.Label("Mouse position: " + mousePos);

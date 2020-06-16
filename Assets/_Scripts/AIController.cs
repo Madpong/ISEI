@@ -1,20 +1,27 @@
-﻿        using System.Collections;
+﻿ using System.Collections;
  using System.Collections.Generic;
  using UnityEngine;
  using UnityEngine.UI;
  public class AIController : MonoBehaviour
 {
-
+    // This variables is changed to create diferents prefavs with Player target as default
+    private GameObject Gplayer;
     public Transform Player;
-    int MoveSpeed = 2;
-    int MaxDist = 10;
-    int MinDist = 1;
+    
+    public float MoveSpeed = 4;
+    public float MaxDist = 10;
+    public float MinDist = 1;
 
 
 
     void Start()
     {
-
+        Gplayer = GameObject.FindWithTag("Player");
+        if (Gplayer != null)
+        {
+            Player = Gplayer.GetComponent<Transform>();
+        }
+       
     }
 
     void Update()

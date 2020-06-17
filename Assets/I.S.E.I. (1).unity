@@ -1209,8 +1209,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1140947222}
   speed: 6
-  cam: {fileID: 963194227}
-  v3Pos: {x: 0, y: 0, z: 0}
 --- !u!143 &1140947222
 CharacterController:
   m_ObjectHideFlags: 0

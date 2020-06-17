@@ -19,32 +19,42 @@ public class Player_Mov : MonoBehaviour
     }
 
 
-    private void Update() {
-         //Use arrow or AWSD as input and save in horizontal and vertical
+    private void Update()
+    {
+        //Use arrow or AWSD as input and save in horizontal and vertical
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        
+
         // Create a vector3 for save Horizontal an Vertical, Normalized to smooth
-        direction = new Vector3(horizontal, 0f , vertical).normalized;
+        direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if (dashCD >= 5)
+        // if (dashCD >= 5)
+        // {
+        // CD
+        //if (CD = 0)
+        //{
+        //enemy atack
+        //CD = 50;
+
+        //} else {
+        // CD -= 1;        
+        //}
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                speed += 10;
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                speed -= 10;
-            }
-            dashCD = 0;
-            } else {
-             dashCD += Time.deltaTime;
-            }
-
+            speed += 10;
         }
-     
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            speed -= 10;
+        }
+        /**   dashCD = 0;
+           } else {
+            dashCD += Time.deltaTime;
+           }
+
+       **/
+    }
     private void FixedUpdate()
     {
         

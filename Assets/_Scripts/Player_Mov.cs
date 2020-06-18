@@ -11,7 +11,7 @@ public class Player_Mov : MonoBehaviour
 
     public float dashCD = 5000;
     public float dashTime = 0;
-    private bool isDash = false;
+   // private bool isDash = false;
     public Vector3 dashMove;
     
 

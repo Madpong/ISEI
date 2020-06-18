@@ -6,7 +6,7 @@
 {
     // This variables is changed to create diferents prefavs with Player target as default
     private GameObject Gplayer;
-    public Transform Player;
+    private Transform Player;
     
     public float MoveSpeed = 4;
     public float MaxDist = 10;

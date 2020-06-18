@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 875876170230181666}
   - component: {fileID: 875876170230181667}
   m_Layer: 8
-  m_Name: enemy ai 1
+  m_Name: Enemy-To-Kil
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

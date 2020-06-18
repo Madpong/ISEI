@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     //This bolean is used to check when the player is Holding Block Button
     private bool isBlocking = false;
 
+    public int weaponDmg; 
 
     void Start() {
         //We load the Animator for later use and we save that commponent in animator
@@ -68,7 +69,7 @@ public class PlayerCombat : MonoBehaviour
             // To Do
 
             //Do Damage 
-            
+            other.GetComponent<Ienemy>().TakeDamaga(weaponDmg);
             //Block Damge if we are in Block State
 
             // Parry.... hehe
